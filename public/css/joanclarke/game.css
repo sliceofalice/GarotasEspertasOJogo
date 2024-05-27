@@ -1,0 +1,161 @@
+@font-face {
+  font-family: Lazy Sunday;
+  src: url(../../../media/font/lazysunday.otf);
+}
+
+#game {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.fundo {
+  border: 5px solid #1f1f1f;
+  background-color: white;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+}
+
+.tela {
+  background-image: url(../../../media/img/joanclarke/tela2.png);
+  background-size: cover;
+  position: absolute;
+  z-index: 3;
+}
+
+.tecla {
+  background-size: cover;
+  position: absolute;
+  z-index: 2;
+}
+
+.cripto {
+  position: absolute;
+  z-index: 4;
+
+  font-family: Lazy Sunday;
+  font-weight: bold;
+  font-size: 35px;
+  color: #C49461;
+
+  top: 78px;
+  left: 85px;
+}
+
+.segredo {
+  position: absolute;
+  z-index: 4;
+
+  font-family: Lazy Sunday;
+  font-weight: bold;
+  text-align: center;
+
+  top: 50%;
+  left: 60%;
+  transform: translate(-50%, -50%);
+}
+
+#underscore {
+  font-size: 60px;
+  color: black;
+}
+
+#criptografia {
+  font-size: 30px;
+  color: #C49461;
+}
+
+.level {
+  border: 5px solid #1f1f1f;
+  border-radius: 10px;
+  background-color: white;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  font-family: Lazy Sunday;
+  font-weight: bold;
+  color: black;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  z-index: 5;
+}
+
+.restart {
+  border: 5px solid #1f1f1f;
+  border-radius: 10px;
+  background-color: white;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  font-family: Lazy Sunday;
+  font-weight: bold;
+  color: black;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  z-index: 5;
+}
+
+.end {
+  border: 5px solid #1f1f1f;
+  border-radius: 10px;
+  background-color: white;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  font-family: Lazy Sunday;
+  font-weight: bold;
+  color: black;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  z-index: 2;
+}
+
+#instrucao {
+  font-size: 25px;
+}
+
+#aperte {
+  font-size: 20px;
+}
+
+#instrucao2{
+  font-size: 25px;
+}
+
+#aperte2 {
+  font-size: 20px;
+}
+
+#parabens {
+  font-size: 25px;
+}
+
+#aperte3 {
+  font-size: 20px;
+}

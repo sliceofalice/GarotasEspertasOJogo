@@ -1,0 +1,135 @@
+@font-face {
+  font-family: Lazy Sunday;
+  src: url(../../../media/font/lazysunday.otf);
+}
+
+#game {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.fundo {
+  border: 5px solid #1f1f1f;
+  background-color: white;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+}
+
+.tela {
+  background-image: url(../../../media/img/hedylamarr/tela1.png);
+  background-size: cover;
+  position: absolute;
+  z-index: 3;
+}
+
+.tecla {
+  background-size: cover;
+  position: absolute;
+  z-index: 2;
+}
+
+.nota {
+  background-size: cover;
+  position: absolute;
+  z-index: 2;
+}
+
+.level {
+  border: 5px solid #1f1f1f;
+  border-radius: 10px;
+  background-color: white;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  font-family: Lazy Sunday;
+  font-weight: bold;
+  color: black;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  z-index: 2;
+}
+
+.end {
+  border: 5px solid #1f1f1f;
+  border-radius: 10px;
+  background-color: white;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  font-family: Lazy Sunday;
+  font-weight: bold;
+  color: black;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  z-index: 2;
+}
+
+.pontuacao {
+  font-family: Lazy Sunday;
+  font-weight: bold;
+  color: black;
+
+  background-color: white;
+
+  position: absolute;
+  top: 15%;
+  left: 62%;
+  z-index: 4;
+}
+
+#texto1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: right;
+  text-align: right;
+
+  font-size: 20px;
+  text-align: right;
+}
+
+#texto2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: right;
+  text-align: right;
+
+  font-size: 70px;
+  text-align: right;
+}
+
+#instrucao {
+  font-size: 25px;
+}
+
+#pontuacao {
+  font-size: 40px;
+}
+
+#aperte {
+  font-size: 20px;
+}
+
+#aperte2 {
+  font-size: 20px;
+}

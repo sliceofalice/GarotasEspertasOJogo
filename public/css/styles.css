@@ -1,0 +1,26 @@
+#game {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.menu {
+  border: 5px solid #1f1f1f;
+  background-image: url(../../media/img/menu/menu1.png);
+  background-size: cover;
+  position: relative;
+  z-index: 1;
+}
+
+.livro {
+  background-size: cover;
+  position: absolute;
+  z-index: 3;
+}
+
+.capa {
+  background-size: cover;
+  position: absolute;
+  z-index: 2;
+}
